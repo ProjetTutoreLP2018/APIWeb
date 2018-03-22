@@ -27,6 +27,18 @@ namespace APIWeb.Services
                     };
               }
 
+            public Produit GetProduit(int id)
+            {
+                Produit[] produits = GetAllProducts();
+                foreach(Produit produit in produits){
+                    if(produit.id == id){
+                        return produit;
+                    }
+                }
+                return null;  
+                }
         }
+
+   
 
 }

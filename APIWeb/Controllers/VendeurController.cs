@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using APIWeb.Models;
-using APIWeb.Services;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -11,36 +9,28 @@ using Microsoft.AspNetCore.Mvc;
 namespace APIWeb.Controllers
 {
     [Route("api/[controller]")]
-    public class ProductController : Controller
+    public class VendeurController : Controller
     {
-        private ProductRepository productRepository;
-
-        public ProductController(){
-            this.productRepository = new ProductRepository();
-        }
-
+        // GET: api/values
         [HttpGet]
-        // GET: api/product
-        public Produit[] Get()
+        public IEnumerable<string> Get()
         {
-            return this.productRepository.GetAllProducts();
+            return new string[] { "value1", "value2" };
         }
 
-        // GET api/product/2
+        // GET api/values/5
         [HttpGet("{id}")]
-        public Produit Get(int id)
+        public string Get(int id)
         {
-            return this.productRepository.GetProduit(id);
+            return "value";
         }
-
-        // --- Non implémenté ---
 
         // POST api/values
         [HttpPost]
         public void Post([FromBody]string value)
         {
         }
-    
+
         // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]string value)

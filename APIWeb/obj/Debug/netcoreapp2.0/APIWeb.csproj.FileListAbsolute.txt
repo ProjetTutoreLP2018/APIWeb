@@ -1,0 +1,11 @@
+/Users/drissbelaroussi/Projects/APIWeb/APIWeb/bin/Debug/netcoreapp2.0/APIWeb.deps.json
+/Users/drissbelaroussi/Projects/APIWeb/APIWeb/bin/Debug/netcoreapp2.0/APIWeb.runtimeconfig.json
+/Users/drissbelaroussi/Projects/APIWeb/APIWeb/bin/Debug/netcoreapp2.0/APIWeb.runtimeconfig.dev.json
+/Users/drissbelaroussi/Projects/APIWeb/APIWeb/bin/Debug/netcoreapp2.0/APIWeb.dll
+/Users/drissbelaroussi/Projects/APIWeb/APIWeb/bin/Debug/netcoreapp2.0/APIWeb.pdb
+/Users/drissbelaroussi/Projects/APIWeb/APIWeb/obj/Debug/netcoreapp2.0/APIWeb.csproj.CoreCompileInputs.cache
+/Users/drissbelaroussi/Projects/APIWeb/APIWeb/obj/Debug/netcoreapp2.0/APIWeb.AssemblyInfoInputs.cache
+/Users/drissbelaroussi/Projects/APIWeb/APIWeb/obj/Debug/netcoreapp2.0/APIWeb.AssemblyInfo.cs
+/Users/drissbelaroussi/Projects/APIWeb/APIWeb/obj/Debug/netcoreapp2.0/APIWeb.dll
+/Users/drissbelaroussi/Projects/APIWeb/APIWeb/obj/Debug/netcoreapp2.0/APIWeb.pdb
+/Users/drissbelaroussi/Projects/APIWeb/APIWeb/obj/Debug/netcoreapp2.0/APIWeb.csprojResolveAssemblyReference.cache
